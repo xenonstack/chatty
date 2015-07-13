@@ -6,7 +6,7 @@ Current version: `0.1.0`
 
 Authors
 -----------------------------------------------------------
-* Abhay Arora <https://github.com/abhayaurora>
+* Abhay Arora <https://github.com/BeliefLimitless>
 
 A full list of [contributors](https://github.com/xenonstack/chatty/graphs/contributors?type=a) can be found on GitHub.
 
