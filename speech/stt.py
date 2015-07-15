@@ -15,8 +15,15 @@ class STT():
     def load(self, audio_file= '/tmp/chatty-shout.wav'):
         fd = open(audio_file, 'rb')
         audio_binary = ''
-        try:
-            byte = fd.read(1)
-            while byte != '':
-                audio_binary += byte
-                
+        with fd, audio_binary:
+            try:
+                byte = fd.read(1)
+                while byte != '':
+                    audio_binary += byte
+            except:
+                pass
+    
+    def transcript(self):
+        pass
+
+''' eof '''
