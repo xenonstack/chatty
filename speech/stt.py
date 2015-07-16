@@ -18,6 +18,7 @@ class STT():
     
     def load(self, audio_file= '/tmp/chatty-shout.wav'):
         self.audio_file = audio_file
+        return self
     
     def transcript(self):
         r = sr.Recognizer()

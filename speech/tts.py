@@ -20,9 +20,11 @@ class TTS():
     
     def set_language(self, lang):
         self.lang = lang
+        return self
     
     def load(self, text):
         self.text = text
+        return self
     
     def mp3(self, path='/tmp/chatty-shout.mp3'):
         tts = gTTS(text= self.text, lang= self.lang)
